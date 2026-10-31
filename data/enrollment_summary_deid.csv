@@ -1,0 +1,3 @@
+participant_id,career_stage,gender,race_ethnicity,highest_degree,enrollment_fields_populated,enrollment_fields_total,sections_submitted,feedback_iterations_received
+participant_1,Senior (21+ years),Female,White,"Doctoral (PhD, EdD)",6,8,1,1
+participant_2,,,,,0,8,0,0

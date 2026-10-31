@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "GRANT-AI start-up feasibility analysis"
+message: "If you use these materials, please cite the manuscript below."
+type: dataset
+authors:
+  - family-names: Pietrobon
+    given-names: Ricardo
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Machiavelli
+    given-names: Aline
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Teixeira
+    given-names: Lucas
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: "Paulsen Rodrigues"
+    given-names: Luiza
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Agrey
+    given-names: Amit
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Nkeangnyi
+    given-names: "Lizzy Y."
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Zechia
+    given-names: Giselle
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Galvao
+    given-names: Victor
+    affiliation: "SporeData Inc, Durham, NC, USA"
+  - family-names: Kuo
+    given-names: Paul
+    affiliation: "Department of Surgery, University of South Florida, Tampa, FL, USA"
+repository-code: "https://github.com/ricardopietrobon/grant-ai"
+license: MIT
+date-released: "2026-10-31"
+keywords:
+  - pilot trials
+  - recruitment
+  - feasibility
+  - artificial intelligence
+  - grant writing
+  - electronic data capture

@@ -1,0 +1,11 @@
+Field type,Variables
+Binary,15
+Text,12
+Categorical,11
+Numeric,11
+Date,8
+Numeric (pre/post),3
+Ordinal,2
+Numeric (per section),2
+Text (List),1
+Checkbox,1

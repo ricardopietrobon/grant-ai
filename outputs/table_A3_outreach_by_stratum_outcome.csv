@@ -1,0 +1,7 @@
+stratum,invitation_outcome,records,searched,contacts,meetings
+Internal Medicine,agreed,6,6,6,6
+Internal Medicine,no_outcome_recorded,37,37,29,15
+Internal Medicine,no_response,21,21,8,0
+Internal Medicine,other,1,1,1,1
+Surgery,no_outcome_recorded,135,23,7,1
+Unassigned,no_outcome_recorded,99,6,0,0

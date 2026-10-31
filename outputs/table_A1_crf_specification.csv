@@ -1,0 +1,67 @@
+Variable Name,Original Description,Type,Form Name,Timepoint
+Participant ID,Unique identifier,Text,Enrollment Form,T0 - At Enrollment
+Institution,Affiliated institution,Text,Enrollment Form,T0 - At Enrollment
+Department,Department or division,Text,Enrollment Form,T0 - At Enrollment
+Career Stage,Early / Mid / Senior,Categorical,Enrollment Form,T0 - At Enrollment
+Gender,Optional demographic variable,Categorical,Enrollment Form,T0 - At Enrollment
+Race/Ethnicity,Optional demographic variable,Categorical,Enrollment Form,T0 - At Enrollment
+Highest Degree,MD / PhD / MPH / etc.,Categorical,Enrollment Form,T0 - At Enrollment
+Number of Publications,Total peer-reviewed publications,Numeric,Research Experience Form,T0 - At Enrollment
+NIH Grants Written,Total NIH proposals written,Numeric,Research Experience Form,T0 - At Enrollment
+NIH Grants Awarded,NIH proposals awarded,Numeric,Research Experience Form,T0 - At Enrollment
+Previous Grant Roles,PI / Co-I / Other,Categorical,Research Experience Form,T0 - At Enrollment
+Prior Grant Writing Training,Yes/No and type if yes,Text,Research Experience Form,T0 - At Enrollment
+Previous AI Tool Use,AI tool use for writing (Yes/No + type),Text,Research Experience Form,T0 - At Enrollment
+Proposal Title,Working title of proposal,Text,Proposal Metadata Form,T0 - At Enrollment
+Funding Opportunity,NIH FOA title/number,Text,Proposal Metadata Form,T0 - At Enrollment
+NIH Institute,Target NIH institute,Categorical,Proposal Metadata Form,T0 - At Enrollment
+Funding Mechanism,"R01, R21, K-series, etc.",Categorical,Proposal Metadata Form,T0 - At Enrollment
+Proposal Type,New / Resubmission / Renewal,Categorical,Proposal Metadata Form,T0 - At Enrollment
+Proposal Stage,Idea / Outline / Partial Draft,Categorical,Proposal Metadata Form,T0 - At Enrollment
+Primary MeSH Term(s),Primary MeSH descriptors,Text,Proposal Metadata Form,T0 - At Enrollment
+Secondary MeSH Term(s),Secondary MeSH descriptors,Text,Proposal Metadata Form,T0 - At Enrollment
+Classification Method,Manual or NLP-derived,Categorical,Proposal Metadata Form,T0 - At Enrollment
+Eligible per Criteria,Met inclusion/exclusion criteria,Binary,Eligibility Form,T0 - At Enrollment
+NIH-Focused Proposal,Proposal aligns with NIH scope,Binary,Eligibility Form,T0 - At Enrollment
+Non-Basic Science,Excludes basic science and non-NIH proposals,Binary,Eligibility Form,T0 - At Enrollment
+Informed Consent Date,Date consent obtained,Date,Eligibility Form,T0 - At Enrollment
+Randomization Date,Date of randomization,Date,Randomization Form,T1 - Intervention Start
+Intervention Arm,LLM / RAG,Categorical,Randomization Form,T1 - Intervention Start
+Platform Access Date,Date of first platform use,Date,Randomization Form,T1 - Intervention Start
+AI Feedback Dates,List of dates feedback used,Text (List),Platform Usage Log,T2 - Throughout Trial
+Sections Reviewed with AI,Aims / Approach / Significance,Checkbox,Platform Usage Log,T2 - Throughout Trial
+Feedback Turnaround Time,Time between feedback and revision,Numeric,Platform Usage Log,T2 - Throughout Trial
+Specific Aims Date,Submission date for Specific Aims,Date,Proposal Progress Form,T2/T3 - On Submission
+Approach Date,Submission date for Approach,Date,Proposal Progress Form,T2/T3 - On Submission
+Significance Date,Submission date for Significance,Date,Proposal Progress Form,T2/T3 - On Submission
+Innovation Date,Submission date for Innovation,Date,Proposal Progress Form,T2/T3 - On Submission
+Completed All Sections,All sections submitted within 90 days,Binary,Proposal Progress Form,T3 - Day 90
+Full Proposal Submitted,Full NIH proposal submitted within 6 months,Binary,Proposal Progress Form,T3 - 6 Months Post
+Reviewer Scores per Section,1–9 NIH-style scores,Numeric (per section),Review Outcome Form,T3 - Day 90
+Reviewer Comments,Blinded reviewer comments,Text,Review Outcome Form,T3 - Day 90
+GPT Quality Scores,"Clarity, Coherence, etc.",Numeric (per section),Review Outcome Form,T3 - Day 90
+Reviewer-Rated Improvement,Post-feedback revision quality,Numeric,Review Outcome Form,T3 - Day 90
+Draft-to-Revised Delta,NLP-based semantic similarity,Numeric,Review Outcome Form,T3 - Day 90
+Motivation Score (IMI),Intrinsic Motivation Inventory,Numeric (pre/post),Psychometric Survey,T0 & T3 - Pre/Post
+Self-Efficacy Score,Grant-Writing Self-Efficacy,Numeric (pre/post),Psychometric Survey,T0 & T3 - Pre/Post
+Work Engagement (UWES),Utrecht Work Engagement Scale,Numeric (pre/post),Psychometric Survey,T0 & T3 - Pre/Post
+Viewed Leaderboard,Viewed leaderboard feature,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Leaderboard View Count,Number of times leaderboard viewed,Numeric,Gamification Engagement Log,T2 - Throughout Trial
+Jackpot Feature Used,Used jackpot feedback feature,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Jackpot Usage Count,Number of jackpot triggers,Numeric,Gamification Engagement Log,T2 - Throughout Trial
+Progress Milestones Set,Set personal writing milestones,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Milestones Achieved,Number of milestones completed,Numeric,Gamification Engagement Log,T2 - Throughout Trial
+Received Motivational Prompts,AI-sent nudges,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Acted on Nudges,Acted on prompts within 24h,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Team-Based Structure,Participated in peer/mentor group,Binary,Gamification Engagement Log,T2 - Throughout Trial
+Bonus Features Triggered,Number of bonus rounds unlocked,Numeric,Gamification Engagement Log,T2 - Throughout Trial
+Inactive Days,Days inactive during trial,Numeric,Adherence Tracking Form,T3 - Day 90
+Completed Trial,Submitted all sections,Binary,Adherence Tracking Form,T3 - Day 90
+Dropout Reason,If applicable,Text,Adherence Tracking Form,T3 - Day 90
+Interview Selected,Chosen for qualitative interview,Binary,Qualitative Substudy Form,T4 - Post-Trial
+Interview Completed,Date completed,Date,Qualitative Substudy Form,T4 - Post-Trial
+Consent for Recording,Agreed to audio recording,Binary,Qualitative Substudy Form,T4 - Post-Trial
+Perceived AI Collaboration,Felt like co-writing with AI (1–5),Ordinal,Post-Trial Reflection Form,T3 - Day 90
+Writing Process Shift,Changed self-view as writer (1–5),Ordinal,Post-Trial Reflection Form,T3 - Day 90
+Preference for AI vs. Mentor,Preferred AI over human feedback,Binary,Post-Trial Reflection Form,T3 - Day 90
+Reflective Quote,What did you learn about writing?,Text,Post-Trial Reflection Form,T3 - Day 90

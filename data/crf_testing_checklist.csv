@@ -1,0 +1,44 @@
+Category,Item to Test,Test Completed (Yes/No),Comments / Issues Identified,Unnamed: 4
+1. Field Validation,Range limits for numeric fields,Yes,,
+1. Field Validation,Date field format and logical order,Yes,,
+1. Field Validation,Required fields enforce data entry,Yes,,
+1. Field Validation,Branching logic functions correctly,Yes,,
+1. Field Validation,"Field annotations behave as expected (@DEFAULT, @HIDECHOICE, etc.)",-,,
+1. Field Validation,Reminders and emails working properly,-,Will we create any reminder / alert?,
+2. Input Type Consistency,"Field types appropriate for data (radio vs. dropdown, checkbox, text)",Yes,,
+2. Input Type Consistency,Calculated fields display correct output,-,,
+2. Input Type Consistency,"Validation rules applied (e.g., email, phone format)",Yes,,
+3. Workflow Simulation,Navigation between instruments is smooth,Yes,,
+3. Workflow Simulation,Event/form availability in longitudinal arms is correct,,"Are those distinct timepoints?
+T2/T3 - On Submission
+T0 & T3 - Pre/Post
+
+All forms to all arms?","Timepoint
+T0 - At Enrollment
+T1 - Intervention Start
+T2 - Throughout Trial
+T2/T3 - On Submission
+T3 - Day 90
+T3 - 6 Months Post
+T0 & T3 - Pre/Post
+T4 - Post-Trial"
+3. Workflow Simulation,Form completion statuses function properly,Yes,,
+3. Workflow Simulation,User role permissions limit access appropriately,Yes,Just Antonio at the moment,
+4. Import/Export Tests,Incoming data aligns with CRF field names and structure,Yes,,
+4. Import/Export Tests,Test CSV import populates correct fields,-,,
+4. Import/Export Tests,"Export to CSV/SPSS retains correct headers, values, and labels",Yes,,
+5. Quality Checks,Mock data entered for typical and edge cases,Yes,,
+5. Quality Checks,Built-in REDCap data quality rules executed,Yes,,
+5. Quality Checks,Audit log records activities appropriately,-,,
+5. Quality Checks,Double data entry reconciliation (if applicable) tested,-,,
+6. External Tools / APIs,External modules behave as expected,-,,
+6. External Tools / APIs,"API connection (e.g., to R dashboard) verified",-,,
+7. Reports / Dashboards,Mock data quality report generates correctly,Yes,,
+7. Reports / Dashboards,Custom reports pull correct records and fields,Yes,,
+7. Reports / Dashboards,Dashboard views display logic is accurate,Yes,,
+8. UAT Feedback,Testers can complete CRFs without guidance,,"Should we run this test? If yes, with who? Nadayca?",
+8. UAT Feedback,Feedback collected on field clarity/usability,,Will the espondents recognize acronyms: PI / Co-I / LLM / RAG ?,
+8. UAT Feedback,Issues logged in tracker or feedback form,-,,
+9. Extra Tests,Survey invitation,Yes,,
+9. Extra Tests,Automated survey invitation,Yes,,
+9. Extra Tests,Automatically Randomizing arms,-,,

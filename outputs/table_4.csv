@@ -1,0 +1,11 @@
+Test category,Items,Executed,Deferred or not applicable,Unresolved at census
+1. Field Validation,6,4,2,0
+2. Input Type Consistency,3,2,1,0
+3. Workflow Simulation,4,3,0,1
+4. Import/Export Tests,3,2,1,0
+5. Quality Checks,4,2,2,0
+6. External Tools / APIs,2,0,2,0
+7. Reports / Dashboards,3,3,0,0
+8. UAT Feedback,3,0,1,2
+9. Extra Tests,3,2,1,0
+Total,31,18,10,3
