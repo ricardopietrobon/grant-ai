@@ -43,5 +43,6 @@
  "records_total": 299,
  "searched_total": 94,
  "sections_submitted": 1,
- "sensitivity_agreement_pct": 26.1
+ "sensitivity_agreement_pct": 26.1,
+ "sensitivity_fisher_p": 0.021987513337484974
 }

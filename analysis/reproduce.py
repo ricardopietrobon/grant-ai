@@ -150,6 +150,8 @@ R.update(fisher_p=float(p), agree_after_meeting=a, invited_after_meeting=n_meet,
 # Sensitivity: if every videoconference with no recorded outcome resolved as a refusal
 den = n_meet + R["meetings_without_outcome"]
 R["sensitivity_agreement_pct"] = round(a / den * 100, 1)
+_, p_sens = stats.fisher_exact([[a, den - a], [c, d]])
+R["sensitivity_fisher_p"] = float(p_sens)
 
 
 # --------------------------------------------------------------------------
@@ -334,6 +336,7 @@ fails = [(k, v, R.get(k)) for k, v in PUBLISHED.items() if R.get(k) != v]
 assert R["fisher_p"] < 2.0e-5, R["fisher_p"]
 assert R["ci_meeting"] == [49.9, 98.4], R["ci_meeting"]
 assert R["ci_cold"] == [0.0, 11.1], R["ci_cold"]
+assert round(R["sensitivity_fisher_p"], 3) == 0.022, R["sensitivity_fisher_p"]
 
 R["fisher_p_formatted"] = f"{R['fisher_p']:.1e}"
 R["census_date"] = CENSUS

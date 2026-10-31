@@ -25,3 +25,14 @@ duplicate repositories:
   arXiv has no such requirement.
 - The 16 contacts who completed a videoconference with no recorded invitation outcome
   remain unresolved. Resolving them changes Table 3 and the sensitivity analysis.
+
+## Build state at first push
+
+- `analysis/reproduce.py` -> 34 published values re-derived, exit 0.
+- `analysis/test_published_values.py` -> 24/24 manuscript claims PASS.
+- Manuscript: 3,415 words (limit 4,000), 238-word abstract (limit 250), 44 references
+  (limit 75), 4 tables, 2 figures, supplementary Tables A.1-A.6 plus Appendices A.7-A.9.
+- `manuscript/arxiv/main.tex` was validated structurally (balanced environments, 44/44
+  cite keys resolved, both figure files present, no unescaped specials outside tabulars).
+  It was **not compiled locally**: the build environment has TeX binaries but no LaTeX
+  macro tree, so no format file can be generated. arXiv compiles submitted source itself.

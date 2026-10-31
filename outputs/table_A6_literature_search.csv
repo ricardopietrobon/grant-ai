@@ -1,0 +1,42 @@
+#,PubMed query,Records retrieved
+1,(large language model OR ChatGPT OR generative artificial intelligence) AND (grant writing OR grant proposal OR grant application),827
+2,artificial intelligence AND (peer review OR grant review) AND (NIH OR funding),2770
+3,retrieval-augmented generation AND (clinical OR biomedical OR medicine),960
+4,(large language model OR ChatGPT) AND (automated feedback OR writing feedback) AND (scientific writing OR academic writing),97
+5,CONSORT extension pilot feasibility randomised trials reporting,46
+6,recruitment randomised controlled trials target sample size shortfall,1
+7,barriers to recruiting physicians OR clinicians as participants in research studies,27860
+8,grant writing training program early career investigators outcomes NIH funding,28
+9,NIH grant application success rate early career investigators,8
+10,gamification engagement randomized trial behaviour change,66
+11,REDCap electronic data capture research study data management validation,30
+12,mentoring academic medicine research productivity faculty,362
+13,ChatGPT quality of scientific abstracts OR manuscripts evaluation,107892
+14,progression criteria pilot trial feasibility randomised,328
+15,artificial intelligence authorship policy scientific publishing,84
+16,strategies to improve recruitment to randomised trials systematic review,352
+17,writing group intervention academic productivity faculty randomized,34
+18,"(""large language model""[tiab] OR ChatGPT[tiab] OR GPT-4[tiab]) AND (grant[tiab] AND (review[tiab] OR proposal[tiab] OR application[tiab]))",8
+19,"(""large language model""[tiab] OR GPT-4[tiab]) AND (peer review[tiab]) AND (feedback[tiab] OR reviewer[tiab])",13
+20,artificial intelligence[tiab] AND peer review[tiab] AND (National Institutes of Health[tiab] OR NIH[tiab]),0
+21,Research electronic data capture (REDCap) metadata-driven methodology workflow process,1
+22,Eldridge[Author] AND (feasibility[tiab] OR pilot[tiab]),88
+23,external pilot trial proceed definitive trial methodological review,1
+24,faculty[tiab] AND (recruitment[tiab] OR participation[tiab]) AND (study[tiab] OR trial[tiab]) AND academic medicine[tiab],68
+25,mock study section OR internal review grant proposal academic institution outcomes,410
+26,response rates surveys of physicians academic faculty systematic review,3
+27,snowball sampling OR referral recruitment hard-to-reach professional participants,8241
+28,career development award K08 K23 outcomes subsequent R01 funding,1
+29,"randomized[tiab] AND (ChatGPT[tiab] OR ""large language model""[tiab]) AND writing[tiab]",14
+30,law of attrition eHealth digital intervention engagement dropout,1
+31,Harris PA[Author] AND REDCap consortium,10
+32,avoidable waste in the production and reporting of research evidence,41
+33,Sully[Author] AND recruitment AND multicentre trials,1
+34,proportion of trials that fail to achieve target recruitment cohort of trials,0
+35,physician response rates to surveys methods to increase,1121
+36,confidentiality artificial intelligence tools peer review funding agency policy,0
+37,recruiting health professionals as participants in trials barriers qualitative,436
+38,physician-scientist workforce decline career development funding,2
+39,researchers attitudes use of generative artificial intelligence grant writing survey,1
+40,sample size for pilot trials rule of thumb external pilot,0
+41,gatekeeper site champion influence recruitment clinical trial qualitative,0
