@@ -1,300 +1,300 @@
-institution_id,stratum,searched,contact_identified,email_obtained,videoconference_completed,invitation_outcome
-INST-8B521247,Internal Medicine,True,True,True,True,agreed
-INST-646A7DC4,Internal Medicine,True,True,True,True,agreed
-INST-5CDF3D3B,Internal Medicine,True,True,True,True,agreed
-INST-FC3EF865,Internal Medicine,True,True,True,True,other
-INST-B712991B,Internal Medicine,True,True,True,True,agreed
-INST-A0777053,Internal Medicine,True,True,True,True,agreed
-INST-B69D3D4C,Internal Medicine,True,True,True,True,agreed
-INST-F8823579,Internal Medicine,True,True,True,False,no_response
-INST-235F6500,Internal Medicine,True,True,True,False,no_response
-INST-BDDD157A,Internal Medicine,True,True,True,False,no_response
-INST-3B1F4C90,Internal Medicine,True,True,True,False,no_response
-INST-882B09E3,Internal Medicine,True,True,True,False,no_response
-INST-22986DA6,Internal Medicine,True,False,False,False,no_response
-INST-9D30BD86,Internal Medicine,True,False,False,False,no_response
-INST-F5DBF48A,Internal Medicine,True,False,False,False,no_response
-INST-E815748F,Internal Medicine,True,False,False,False,no_response
-INST-7EDFEF9F,Internal Medicine,True,False,False,False,no_response
-INST-DD0969E3,Internal Medicine,True,False,False,False,no_response
-INST-5CE02C25,Internal Medicine,True,False,False,False,no_response
-INST-DABC6858,Internal Medicine,True,False,False,False,no_response
-INST-3059A762,Internal Medicine,True,False,False,False,no_response
-INST-4980C01B,Internal Medicine,True,True,True,False,no_response
-INST-A96257E2,Internal Medicine,True,False,False,False,no_response
-INST-44D77C4D,Internal Medicine,True,False,False,False,no_response
-INST-F348A357,Internal Medicine,True,False,False,False,no_response
-INST-B8FBE3E2,Internal Medicine,True,True,True,False,no_response
-INST-33777AC4,Internal Medicine,True,True,True,False,no_response
-INST-8F5D4D0D,Internal Medicine,True,False,False,False,no_response
-INST-9ABAC6B1,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-6F3F51CC,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-7548E567,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-B4D1589A,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-1AB1B231,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-97813EBB,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-23036DF5,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-9CADF837,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-D0561CB9,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-C3CF2F4D,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-4D84A8F0,Internal Medicine,True,False,False,False,no_outcome_recorded
-INST-28EB7BCC,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-95F6023F,Internal Medicine,True,True,False,False,no_outcome_recorded
-INST-48A3556E,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-228CD5F1,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-E06EAA1E,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-44D77C4D,Surgery,True,True,True,True,no_outcome_recorded
-INST-5D64268D,Unassigned,True,False,False,False,no_outcome_recorded
-INST-B8A4BB27,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-035EA694,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-B9442660,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-46778642,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-5012DA4D,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-7E0F1291,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-036F7CE5,Unassigned,True,False,False,False,no_outcome_recorded
-,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-CB82D565,Internal Medicine,True,True,True,True,no_outcome_recorded
-INST-C373EF02,Unassigned,True,False,False,False,no_outcome_recorded
-INST-0E609122,Unassigned,True,False,False,False,no_outcome_recorded
-INST-67BE8483,Unassigned,True,False,False,False,no_outcome_recorded
-INST-882B09E3,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-8B521247,Surgery,True,False,False,False,no_outcome_recorded
-INST-22986DA6,Surgery,True,True,True,False,no_outcome_recorded
-INST-16425B35,Surgery,True,True,True,False,no_outcome_recorded
-INST-9D30BD86,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-F5DBF48A,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-E815748F,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-646A7DC4,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-7EDFEF9F,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-DD0969E3,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-5CE02C25,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-5CDF3D3B,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-DABC6858,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-3059A762,Surgery,True,False,False,False,no_outcome_recorded
-INST-FC3EF865,Surgery,True,True,True,False,no_outcome_recorded
-INST-4980C01B,Surgery,True,True,True,False,no_outcome_recorded
-INST-A96257E2,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-F348A357,Surgery,True,True,True,False,no_outcome_recorded
-INST-B8FBE3E2,Surgery,True,True,False,False,no_outcome_recorded
-INST-33777AC4,Surgery,True,False,False,False,no_outcome_recorded
-INST-8F5D4D0D,Surgery,True,False,False,False,no_outcome_recorded
-INST-6F3F51CC,Surgery,True,False,False,False,no_outcome_recorded
-INST-7548E567,Surgery,True,False,False,False,no_outcome_recorded
-INST-B4D1589A,Surgery,True,False,False,False,no_outcome_recorded
-INST-1AB1B231,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-97813EBB,Surgery,True,False,False,False,no_outcome_recorded
-INST-23036DF5,Surgery,True,False,False,False,no_outcome_recorded
-INST-9CADF837,Surgery,True,False,False,False,no_outcome_recorded
-INST-D0561CB9,Surgery,True,False,False,False,no_outcome_recorded
-INST-C3CF2F4D,Surgery,True,False,False,False,no_outcome_recorded
-INST-4D84A8F0,Surgery,True,False,False,False,no_outcome_recorded
-INST-28EB7BCC,Surgery,True,False,False,False,no_outcome_recorded
-INST-95F6023F,Surgery,True,False,False,False,no_outcome_recorded
-INST-48A3556E,Surgery,True,False,False,False,no_outcome_recorded
-INST-B712991B,Internal Medicine,True,True,True,False,no_outcome_recorded
-INST-10CB3CAE,Unassigned,True,False,False,False,no_outcome_recorded
-INST-F27CAFB4,Unassigned,False,False,False,False,no_outcome_recorded
-INST-87B6561A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-CA845767,Unassigned,False,False,False,False,no_outcome_recorded
-INST-BF3993B7,Unassigned,False,False,False,False,no_outcome_recorded
-INST-6BC0517C,Unassigned,False,False,False,False,no_outcome_recorded
-INST-3549B8CD,Unassigned,False,False,False,False,no_outcome_recorded
-INST-563D9562,Unassigned,False,False,False,False,no_outcome_recorded
-INST-64986CD4,Unassigned,False,False,False,False,no_outcome_recorded
-INST-F6451082,Unassigned,False,False,False,False,no_outcome_recorded
-INST-2770CED6,Unassigned,False,False,False,False,no_outcome_recorded
-INST-BC9F12D6,Unassigned,False,False,False,False,no_outcome_recorded
-INST-E4DC483F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-C872E2A0,Unassigned,False,False,False,False,no_outcome_recorded
-INST-8CC5B043,Unassigned,False,False,False,False,no_outcome_recorded
-INST-EF08370D,Unassigned,False,False,False,False,no_outcome_recorded
-INST-53BCDF4F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-232F901E,Unassigned,False,False,False,False,no_outcome_recorded
-INST-12A40BEF,Unassigned,False,False,False,False,no_outcome_recorded
-INST-CF045CDF,Unassigned,False,False,False,False,no_outcome_recorded
-INST-4E4EF9DC,Unassigned,False,False,False,False,no_outcome_recorded
-INST-0A788F43,Unassigned,False,False,False,False,no_outcome_recorded
-INST-2A9ABF35,Unassigned,False,False,False,False,no_outcome_recorded
-INST-5E4FA36B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-0473E87D,Unassigned,False,False,False,False,no_outcome_recorded
-INST-4C82DDD9,Unassigned,False,False,False,False,no_outcome_recorded
-INST-C027E16F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-C2010A82,Unassigned,False,False,False,False,no_outcome_recorded
-INST-13F6EAE8,Unassigned,False,False,False,False,no_outcome_recorded
-INST-E0C349BD,Unassigned,False,False,False,False,no_outcome_recorded
-INST-5A59FDB0,Unassigned,False,False,False,False,no_outcome_recorded
-INST-12241F62,Unassigned,False,False,False,False,no_outcome_recorded
-INST-C5AD6EE8,Unassigned,False,False,False,False,no_outcome_recorded
-INST-AA446E64,Unassigned,False,False,False,False,no_outcome_recorded
-INST-057DCE4E,Unassigned,False,False,False,False,no_outcome_recorded
-INST-4B061D1C,Unassigned,False,False,False,False,no_outcome_recorded
-INST-D1311883,Unassigned,False,False,False,False,no_outcome_recorded
-INST-2B4466EC,Unassigned,False,False,False,False,no_outcome_recorded
-INST-B29E77E9,Unassigned,False,False,False,False,no_outcome_recorded
-INST-03B38C3C,Unassigned,False,False,False,False,no_outcome_recorded
-INST-11C2C190,Unassigned,False,False,False,False,no_outcome_recorded
-INST-12F6D20A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-7191CBFF,Unassigned,False,False,False,False,no_outcome_recorded
-INST-285A2827,Unassigned,False,False,False,False,no_outcome_recorded
-INST-AD69519F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-E5BBF821,Unassigned,False,False,False,False,no_outcome_recorded
-INST-DC770EC1,Unassigned,False,False,False,False,no_outcome_recorded
-INST-ABC9A42B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-2F6A57C8,Unassigned,False,False,False,False,no_outcome_recorded
-INST-963EFB9A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-6A91E761,Unassigned,False,False,False,False,no_outcome_recorded
-INST-05628E53,Unassigned,False,False,False,False,no_outcome_recorded
-INST-83068729,Unassigned,False,False,False,False,no_outcome_recorded
-INST-4F714FA7,Unassigned,False,False,False,False,no_outcome_recorded
-INST-E6AED39F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-25512B9B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-84E2730B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-03537290,Unassigned,False,False,False,False,no_outcome_recorded
-INST-6046191C,Unassigned,False,False,False,False,no_outcome_recorded
-INST-BC9E6A02,Unassigned,False,False,False,False,no_outcome_recorded
-INST-CD8A84B9,Unassigned,False,False,False,False,no_outcome_recorded
-INST-D265086B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-7F32D5EF,Unassigned,False,False,False,False,no_outcome_recorded
-INST-BBFF3AE9,Unassigned,False,False,False,False,no_outcome_recorded
-INST-E6EEACDB,Unassigned,False,False,False,False,no_outcome_recorded
-INST-725F9003,Unassigned,False,False,False,False,no_outcome_recorded
-INST-044EDC6A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-F3B6CD5F,Unassigned,False,False,False,False,no_outcome_recorded
-INST-DBAC23A9,Unassigned,False,False,False,False,no_outcome_recorded
-INST-AD8D5700,Unassigned,False,False,False,False,no_outcome_recorded
-INST-A12EE59B,Unassigned,False,False,False,False,no_outcome_recorded
-INST-58F8B214,Unassigned,False,False,False,False,no_outcome_recorded
-INST-7C918685,Unassigned,False,False,False,False,no_outcome_recorded
-INST-9D8B2F69,Unassigned,False,False,False,False,no_outcome_recorded
-INST-B9CBBE05,Unassigned,False,False,False,False,no_outcome_recorded
-INST-12048E07,Unassigned,False,False,False,False,no_outcome_recorded
-INST-B76A93D8,Unassigned,False,False,False,False,no_outcome_recorded
-INST-8AB111F8,Unassigned,False,False,False,False,no_outcome_recorded
-INST-46076B04,Unassigned,False,False,False,False,no_outcome_recorded
-INST-8999FBA2,Unassigned,False,False,False,False,no_outcome_recorded
-INST-ACDDE40D,Unassigned,False,False,False,False,no_outcome_recorded
-INST-D69177EC,Unassigned,False,False,False,False,no_outcome_recorded
-INST-6476FB48,Unassigned,False,False,False,False,no_outcome_recorded
-INST-CE21D941,Unassigned,False,False,False,False,no_outcome_recorded
-INST-6980F039,Unassigned,False,False,False,False,no_outcome_recorded
-INST-00A6447A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-0BC329F3,Unassigned,False,False,False,False,no_outcome_recorded
-INST-942E58EF,Unassigned,False,False,False,False,no_outcome_recorded
-INST-5C244C06,Unassigned,False,False,False,False,no_outcome_recorded
-INST-CF1ED03A,Unassigned,False,False,False,False,no_outcome_recorded
-INST-B6709463,Unassigned,False,False,False,False,no_outcome_recorded
-INST-719E3B75,Unassigned,False,False,False,False,no_outcome_recorded
-INST-14ED6AF3,Unassigned,False,False,False,False,no_outcome_recorded
-INST-31ED8F51,Unassigned,False,False,False,False,no_outcome_recorded
-INST-228CD5F1,Surgery,False,False,False,False,no_outcome_recorded
-INST-E06EAA1E,Surgery,False,False,False,False,no_outcome_recorded
-INST-44D77C4D,Surgery,False,False,False,False,no_outcome_recorded
-INST-5D64268D,Surgery,False,False,False,False,no_outcome_recorded
-INST-B8A4BB27,Surgery,False,False,False,False,no_outcome_recorded
-INST-A0777053,Surgery,False,False,False,False,no_outcome_recorded
-INST-035EA694,Surgery,False,False,False,False,no_outcome_recorded
-INST-B9442660,Surgery,False,False,False,False,no_outcome_recorded
-INST-B69D3D4C,Surgery,False,False,False,False,no_outcome_recorded
-INST-46778642,Surgery,False,False,False,False,no_outcome_recorded
-INST-5012DA4D,Surgery,False,False,False,False,no_outcome_recorded
-INST-7E0F1291,Surgery,False,False,False,False,no_outcome_recorded
-INST-036F7CE5,Surgery,False,False,False,False,no_outcome_recorded
-INST-1B502506,Surgery,False,False,False,False,no_outcome_recorded
-INST-CB82D565,Surgery,False,False,False,False,no_outcome_recorded
-INST-F27CAFB4,Surgery,False,False,False,False,no_outcome_recorded
-INST-87B6561A,Surgery,False,False,False,False,no_outcome_recorded
-INST-CA845767,Surgery,False,False,False,False,no_outcome_recorded
-INST-BF3993B7,Surgery,False,False,False,False,no_outcome_recorded
-INST-6BC0517C,Surgery,False,False,False,False,no_outcome_recorded
-INST-3549B8CD,Surgery,False,False,False,False,no_outcome_recorded
-INST-563D9562,Surgery,False,False,False,False,no_outcome_recorded
-INST-64986CD4,Surgery,False,False,False,False,no_outcome_recorded
-INST-F6451082,Surgery,False,False,False,False,no_outcome_recorded
-INST-2770CED6,Surgery,False,False,False,False,no_outcome_recorded
-INST-BC9F12D6,Surgery,False,False,False,False,no_outcome_recorded
-INST-E4DC483F,Surgery,False,False,False,False,no_outcome_recorded
-INST-C872E2A0,Surgery,False,False,False,False,no_outcome_recorded
-INST-8CC5B043,Surgery,False,False,False,False,no_outcome_recorded
-INST-EF08370D,Surgery,False,False,False,False,no_outcome_recorded
-INST-53BCDF4F,Surgery,False,False,False,False,no_outcome_recorded
-INST-232F901E,Surgery,False,False,False,False,no_outcome_recorded
-INST-12A40BEF,Surgery,False,False,False,False,no_outcome_recorded
-INST-CF045CDF,Surgery,False,False,False,False,no_outcome_recorded
-INST-4E4EF9DC,Surgery,False,False,False,False,no_outcome_recorded
-INST-0A788F43,Surgery,False,False,False,False,no_outcome_recorded
-INST-2A9ABF35,Surgery,False,False,False,False,no_outcome_recorded
-INST-5E4FA36B,Surgery,False,False,False,False,no_outcome_recorded
-INST-0473E87D,Surgery,False,False,False,False,no_outcome_recorded
-INST-4C82DDD9,Surgery,False,False,False,False,no_outcome_recorded
-INST-C027E16F,Surgery,False,False,False,False,no_outcome_recorded
-INST-C2010A82,Surgery,False,False,False,False,no_outcome_recorded
-INST-13F6EAE8,Surgery,False,False,False,False,no_outcome_recorded
-INST-E0C349BD,Surgery,False,False,False,False,no_outcome_recorded
-INST-5A59FDB0,Surgery,False,False,False,False,no_outcome_recorded
-INST-12241F62,Surgery,False,False,False,False,no_outcome_recorded
-INST-C5AD6EE8,Surgery,False,False,False,False,no_outcome_recorded
-INST-AA446E64,Surgery,False,False,False,False,no_outcome_recorded
-INST-057DCE4E,Surgery,False,False,False,False,no_outcome_recorded
-INST-4B061D1C,Surgery,False,False,False,False,no_outcome_recorded
-INST-D1311883,Surgery,False,False,False,False,no_outcome_recorded
-INST-2B4466EC,Surgery,False,False,False,False,no_outcome_recorded
-INST-B29E77E9,Surgery,False,False,False,False,no_outcome_recorded
-INST-03B38C3C,Surgery,False,False,False,False,no_outcome_recorded
-INST-11C2C190,Surgery,False,False,False,False,no_outcome_recorded
-INST-12F6D20A,Surgery,False,False,False,False,no_outcome_recorded
-INST-7191CBFF,Surgery,False,False,False,False,no_outcome_recorded
-INST-285A2827,Surgery,False,False,False,False,no_outcome_recorded
-INST-AD69519F,Surgery,False,False,False,False,no_outcome_recorded
-INST-E5BBF821,Surgery,False,False,False,False,no_outcome_recorded
-INST-DC770EC1,Surgery,False,False,False,False,no_outcome_recorded
-INST-ABC9A42B,Surgery,False,False,False,False,no_outcome_recorded
-INST-2F6A57C8,Surgery,False,False,False,False,no_outcome_recorded
-INST-963EFB9A,Surgery,False,False,False,False,no_outcome_recorded
-INST-6A91E761,Surgery,False,False,False,False,no_outcome_recorded
-INST-05628E53,Surgery,False,False,False,False,no_outcome_recorded
-INST-83068729,Surgery,False,False,False,False,no_outcome_recorded
-INST-4F714FA7,Surgery,False,False,False,False,no_outcome_recorded
-INST-E6AED39F,Surgery,False,False,False,False,no_outcome_recorded
-INST-25512B9B,Surgery,False,False,False,False,no_outcome_recorded
-INST-84E2730B,Surgery,False,False,False,False,no_outcome_recorded
-INST-03537290,Surgery,False,False,False,False,no_outcome_recorded
-INST-6046191C,Surgery,False,False,False,False,no_outcome_recorded
-INST-BC9E6A02,Surgery,False,False,False,False,no_outcome_recorded
-INST-CD8A84B9,Surgery,False,False,False,False,no_outcome_recorded
-INST-D265086B,Surgery,False,False,False,False,no_outcome_recorded
-INST-7F32D5EF,Surgery,False,False,False,False,no_outcome_recorded
-INST-BBFF3AE9,Surgery,False,False,False,False,no_outcome_recorded
-INST-E6EEACDB,Surgery,False,False,False,False,no_outcome_recorded
-INST-725F9003,Surgery,False,False,False,False,no_outcome_recorded
-INST-044EDC6A,Surgery,False,False,False,False,no_outcome_recorded
-INST-F3B6CD5F,Surgery,False,False,False,False,no_outcome_recorded
-INST-DBAC23A9,Surgery,False,False,False,False,no_outcome_recorded
-INST-AD8D5700,Surgery,False,False,False,False,no_outcome_recorded
-INST-A12EE59B,Surgery,False,False,False,False,no_outcome_recorded
-INST-58F8B214,Surgery,False,False,False,False,no_outcome_recorded
-INST-7C918685,Surgery,False,False,False,False,no_outcome_recorded
-INST-9D8B2F69,Surgery,False,False,False,False,no_outcome_recorded
-INST-B9CBBE05,Surgery,False,False,False,False,no_outcome_recorded
-INST-12048E07,Surgery,False,False,False,False,no_outcome_recorded
-INST-B76A93D8,Surgery,False,False,False,False,no_outcome_recorded
-INST-8AB111F8,Surgery,False,False,False,False,no_outcome_recorded
-INST-46076B04,Surgery,False,False,False,False,no_outcome_recorded
-INST-8999FBA2,Surgery,False,False,False,False,no_outcome_recorded
-INST-ACDDE40D,Surgery,False,False,False,False,no_outcome_recorded
-INST-D69177EC,Surgery,False,False,False,False,no_outcome_recorded
-INST-6476FB48,Surgery,False,False,False,False,no_outcome_recorded
-INST-CE21D941,Surgery,False,False,False,False,no_outcome_recorded
-INST-6980F039,Surgery,False,False,False,False,no_outcome_recorded
-INST-00A6447A,Surgery,False,False,False,False,no_outcome_recorded
-INST-0BC329F3,Surgery,False,False,False,False,no_outcome_recorded
-INST-942E58EF,Surgery,False,False,False,False,no_outcome_recorded
-INST-5C244C06,Surgery,False,False,False,False,no_outcome_recorded
-INST-CF1ED03A,Surgery,False,False,False,False,no_outcome_recorded
-INST-B6709463,Surgery,False,False,False,False,no_outcome_recorded
-INST-719E3B75,Surgery,False,False,False,False,no_outcome_recorded
-INST-14ED6AF3,Surgery,False,False,False,False,no_outcome_recorded
-INST-31ED8F51,Surgery,False,False,False,False,no_outcome_recorded
-INST-C373EF02,Surgery,False,False,False,False,no_outcome_recorded
-INST-0E609122,Surgery,False,False,False,False,no_outcome_recorded
-INST-67BE8483,Surgery,False,False,False,False,no_outcome_recorded
-INST-10CB3CAE,Surgery,False,False,False,False,no_outcome_recorded
+institution_id,stratum,searched,contact_identified,email_obtained,videoconference_completed,invitation_issued,invitation_outcome
+INST-8B521247,Internal Medicine,True,True,True,True,True,agreed
+INST-646A7DC4,Internal Medicine,True,True,True,True,True,agreed
+INST-5CDF3D3B,Internal Medicine,True,True,True,True,True,agreed
+INST-FC3EF865,Internal Medicine,True,True,True,True,True,other
+INST-B712991B,Internal Medicine,True,True,True,True,True,agreed
+INST-A0777053,Internal Medicine,True,True,True,True,True,agreed
+INST-B69D3D4C,Internal Medicine,True,True,True,True,True,agreed
+INST-F8823579,Internal Medicine,True,True,True,False,True,no_response
+INST-235F6500,Internal Medicine,True,True,True,False,True,no_response
+INST-BDDD157A,Internal Medicine,True,True,True,False,True,no_response
+INST-3B1F4C90,Internal Medicine,True,True,True,False,True,no_response
+INST-882B09E3,Internal Medicine,True,True,True,False,True,no_response
+INST-22986DA6,Internal Medicine,True,False,False,False,True,no_response
+INST-9D30BD86,Internal Medicine,True,False,False,False,True,no_response
+INST-F5DBF48A,Internal Medicine,True,False,False,False,True,no_response
+INST-E815748F,Internal Medicine,True,False,False,False,True,no_response
+INST-7EDFEF9F,Internal Medicine,True,False,False,False,True,no_response
+INST-DD0969E3,Internal Medicine,True,False,False,False,True,no_response
+INST-5CE02C25,Internal Medicine,True,False,False,False,True,no_response
+INST-DABC6858,Internal Medicine,True,False,False,False,True,no_response
+INST-3059A762,Internal Medicine,True,False,False,False,True,no_response
+INST-4980C01B,Internal Medicine,True,True,True,False,True,no_response
+INST-A96257E2,Internal Medicine,True,False,False,False,True,no_response
+INST-44D77C4D,Internal Medicine,True,False,False,False,True,no_response
+INST-F348A357,Internal Medicine,True,False,False,False,True,no_response
+INST-B8FBE3E2,Internal Medicine,True,True,True,False,True,no_response
+INST-33777AC4,Internal Medicine,True,True,True,False,True,no_response
+INST-8F5D4D0D,Internal Medicine,True,False,False,False,True,no_response
+INST-9ABAC6B1,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-6F3F51CC,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-7548E567,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-B4D1589A,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-1AB1B231,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-97813EBB,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-23036DF5,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-9CADF837,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-D0561CB9,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-C3CF2F4D,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-4D84A8F0,Internal Medicine,True,False,False,False,False,no_outcome_recorded
+INST-28EB7BCC,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-95F6023F,Internal Medicine,True,True,False,False,False,no_outcome_recorded
+INST-48A3556E,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-228CD5F1,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-E06EAA1E,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-44D77C4D,Surgery,True,True,True,True,True,awaiting_reply
+INST-5D64268D,Unassigned,True,False,False,False,False,no_outcome_recorded
+INST-B8A4BB27,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-035EA694,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-B9442660,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-46778642,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-5012DA4D,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-7E0F1291,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-036F7CE5,Unassigned,True,False,False,False,False,no_outcome_recorded
+,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-CB82D565,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-C373EF02,Unassigned,True,False,False,False,False,no_outcome_recorded
+INST-0E609122,Unassigned,True,False,False,False,False,no_outcome_recorded
+INST-67BE8483,Unassigned,True,False,False,False,False,no_outcome_recorded
+INST-882B09E3,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-8B521247,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-22986DA6,Surgery,True,True,True,False,False,no_outcome_recorded
+INST-16425B35,Surgery,True,True,True,False,False,no_outcome_recorded
+INST-9D30BD86,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-F5DBF48A,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-E815748F,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-646A7DC4,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-7EDFEF9F,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-DD0969E3,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-5CE02C25,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-5CDF3D3B,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-DABC6858,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-3059A762,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-FC3EF865,Surgery,True,True,True,False,False,no_outcome_recorded
+INST-4980C01B,Surgery,True,True,True,False,False,no_outcome_recorded
+INST-A96257E2,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-F348A357,Surgery,True,True,True,False,False,no_outcome_recorded
+INST-B8FBE3E2,Surgery,True,True,False,False,False,no_outcome_recorded
+INST-33777AC4,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-8F5D4D0D,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-6F3F51CC,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-7548E567,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-B4D1589A,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-1AB1B231,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-97813EBB,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-23036DF5,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-9CADF837,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-D0561CB9,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-C3CF2F4D,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-4D84A8F0,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-28EB7BCC,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-95F6023F,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-48A3556E,Surgery,True,False,False,False,False,no_outcome_recorded
+INST-B712991B,Internal Medicine,True,True,True,False,False,no_outcome_recorded
+INST-10CB3CAE,Unassigned,True,False,False,False,False,no_outcome_recorded
+INST-F27CAFB4,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-87B6561A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-CA845767,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-BF3993B7,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-6BC0517C,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-3549B8CD,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-563D9562,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-64986CD4,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-F6451082,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-2770CED6,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-BC9F12D6,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-E4DC483F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-C872E2A0,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-8CC5B043,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-EF08370D,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-53BCDF4F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-232F901E,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-12A40BEF,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-CF045CDF,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-4E4EF9DC,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-0A788F43,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-2A9ABF35,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-5E4FA36B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-0473E87D,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-4C82DDD9,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-C027E16F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-C2010A82,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-13F6EAE8,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-E0C349BD,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-5A59FDB0,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-12241F62,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-C5AD6EE8,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-AA446E64,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-057DCE4E,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-4B061D1C,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-D1311883,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-2B4466EC,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-B29E77E9,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-03B38C3C,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-11C2C190,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-12F6D20A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-7191CBFF,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-285A2827,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-AD69519F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-E5BBF821,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-DC770EC1,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-ABC9A42B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-2F6A57C8,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-963EFB9A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-6A91E761,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-05628E53,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-83068729,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-4F714FA7,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-E6AED39F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-25512B9B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-84E2730B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-03537290,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-6046191C,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-BC9E6A02,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-CD8A84B9,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-D265086B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-7F32D5EF,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-BBFF3AE9,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-E6EEACDB,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-725F9003,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-044EDC6A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-F3B6CD5F,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-DBAC23A9,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-AD8D5700,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-A12EE59B,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-58F8B214,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-7C918685,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-9D8B2F69,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-B9CBBE05,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-12048E07,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-B76A93D8,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-8AB111F8,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-46076B04,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-8999FBA2,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-ACDDE40D,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-D69177EC,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-6476FB48,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-CE21D941,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-6980F039,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-00A6447A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-0BC329F3,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-942E58EF,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-5C244C06,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-CF1ED03A,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-B6709463,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-719E3B75,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-14ED6AF3,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-31ED8F51,Unassigned,False,False,False,False,False,no_outcome_recorded
+INST-228CD5F1,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E06EAA1E,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-44D77C4D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-5D64268D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B8A4BB27,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-A0777053,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-035EA694,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B9442660,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B69D3D4C,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-46778642,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-5012DA4D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-7E0F1291,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-036F7CE5,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-1B502506,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CB82D565,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-F27CAFB4,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-87B6561A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CA845767,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-BF3993B7,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-6BC0517C,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-3549B8CD,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-563D9562,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-64986CD4,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-F6451082,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-2770CED6,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-BC9F12D6,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E4DC483F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-C872E2A0,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-8CC5B043,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-EF08370D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-53BCDF4F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-232F901E,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-12A40BEF,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CF045CDF,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-4E4EF9DC,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-0A788F43,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-2A9ABF35,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-5E4FA36B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-0473E87D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-4C82DDD9,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-C027E16F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-C2010A82,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-13F6EAE8,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E0C349BD,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-5A59FDB0,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-12241F62,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-C5AD6EE8,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-AA446E64,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-057DCE4E,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-4B061D1C,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-D1311883,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-2B4466EC,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B29E77E9,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-03B38C3C,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-11C2C190,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-12F6D20A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-7191CBFF,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-285A2827,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-AD69519F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E5BBF821,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-DC770EC1,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-ABC9A42B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-2F6A57C8,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-963EFB9A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-6A91E761,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-05628E53,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-83068729,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-4F714FA7,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E6AED39F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-25512B9B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-84E2730B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-03537290,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-6046191C,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-BC9E6A02,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CD8A84B9,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-D265086B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-7F32D5EF,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-BBFF3AE9,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-E6EEACDB,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-725F9003,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-044EDC6A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-F3B6CD5F,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-DBAC23A9,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-AD8D5700,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-A12EE59B,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-58F8B214,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-7C918685,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-9D8B2F69,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B9CBBE05,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-12048E07,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B76A93D8,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-8AB111F8,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-46076B04,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-8999FBA2,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-ACDDE40D,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-D69177EC,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-6476FB48,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CE21D941,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-6980F039,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-00A6447A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-0BC329F3,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-942E58EF,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-5C244C06,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-CF1ED03A,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-B6709463,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-719E3B75,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-14ED6AF3,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-31ED8F51,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-C373EF02,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-0E609122,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-67BE8483,Surgery,False,False,False,False,False,no_outcome_recorded
+INST-10CB3CAE,Surgery,False,False,False,False,False,no_outcome_recorded

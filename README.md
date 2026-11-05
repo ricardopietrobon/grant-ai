@@ -53,8 +53,11 @@ documented rather than hidden:
 
 1. **Timeline dates are file creation timestamps**, not logged events. They bound when
    work happened; they do not measure it.
-2. **Blank cells in the operational tracker are treated as "not done."** A blank can also
-   mean done-and-unrecorded. Every denominator is therefore conservative.
+2. **Blank cells in the operational tracker are treated as "not done," with one exception.**
+   The study team confirmed that a blank in the invitation column, for a contact who completed a
+   videoconference, means the invitation was issued and no reply had arrived by census. Those 16
+   are counted as invitations issued and as non-agreements in the conservative estimate. Blanks
+   elsewhere still mean not done, so those denominators remain conservative.
 3. **The feedback artifacts themselves** (one 772-word structured critique and four worked
    examples totalling 6,911 words) contain unpublished proposal content and are not
    included. Only their word counts and structure enter the analysis.
