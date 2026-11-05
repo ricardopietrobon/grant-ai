@@ -19,7 +19,7 @@ pip install -r requirements.txt
 python analysis/reproduce.py
 ```
 
-The script re-derives 34 published values from `data/` and exits non-zero if any one of
+The script re-derives 39 published values from `data/` and exits non-zero if any one of
 them fails to match the manuscript. Outputs land in `outputs/`.
 
 ## What is here
