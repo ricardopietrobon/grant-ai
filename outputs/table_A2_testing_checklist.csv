@@ -23,7 +23,7 @@ T3 - 6 Months Post
 T0 & T3 - Pre/Post
 T4 - Post-Trial"
 3. Workflow Simulation,Form completion statuses function properly,Yes,,
-3. Workflow Simulation,User role permissions limit access appropriately,Yes,Just Antonio at the moment,
+3. Workflow Simulation,User role permissions limit access appropriately,Yes,Single study team member at the time of testing,
 4. Import/Export Tests,Incoming data aligns with CRF field names and structure,Yes,,
 4. Import/Export Tests,Test CSV import populates correct fields,-,,
 4. Import/Export Tests,"Export to CSV/SPSS retains correct headers, values, and labels",Yes,,
