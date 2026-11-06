@@ -19,7 +19,7 @@ pip install -r requirements.txt
 python analysis/reproduce.py
 ```
 
-The script re-derives 39 published values from `data/` and exits non-zero if any one of
+The script re-derives 33 published values from `data/` and exits non-zero if any one of
 them fails to match the manuscript. Outputs land in `outputs/`.
 
 ## What is here
@@ -55,8 +55,8 @@ documented rather than hidden:
    work happened; they do not measure it.
 2. **Blank cells in the operational tracker are treated as "not done," with one exception.**
    The study team confirmed that a blank in the invitation column, for a contact who completed a
-   videoconference, means the invitation was issued and no reply had arrived by census. Those 16
-   are counted as invitations issued and as non-agreements in the conservative estimate. Blanks
+   videoconference, records an invitation that was issued and never answered. Those 16 are counted
+   as invitations issued and as non-responses. Blanks
    elsewhere still mean not done, so those denominators remain conservative.
 3. **The feedback artifacts themselves** (one 772-word structured critique and four worked
    examples totalling 6,911 words) contain unpublished proposal content and are not

@@ -27,33 +27,33 @@ INST-F348A357,Internal Medicine,True,False,False,False,True,no_response
 INST-B8FBE3E2,Internal Medicine,True,True,True,False,True,no_response
 INST-33777AC4,Internal Medicine,True,True,True,False,True,no_response
 INST-8F5D4D0D,Internal Medicine,True,False,False,False,True,no_response
-INST-9ABAC6B1,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-9ABAC6B1,Internal Medicine,True,True,True,True,True,no_response
 INST-6F3F51CC,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-7548E567,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-B4D1589A,Internal Medicine,True,False,False,False,False,no_outcome_recorded
-INST-1AB1B231,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-97813EBB,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-1AB1B231,Internal Medicine,True,True,True,True,True,no_response
+INST-97813EBB,Internal Medicine,True,True,True,True,True,no_response
 INST-23036DF5,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-9CADF837,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-D0561CB9,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-C3CF2F4D,Internal Medicine,True,False,False,False,False,no_outcome_recorded
 INST-4D84A8F0,Internal Medicine,True,False,False,False,False,no_outcome_recorded
-INST-28EB7BCC,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-28EB7BCC,Internal Medicine,True,True,True,True,True,no_response
 INST-95F6023F,Internal Medicine,True,True,False,False,False,no_outcome_recorded
-INST-48A3556E,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-228CD5F1,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-E06EAA1E,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-44D77C4D,Surgery,True,True,True,True,True,awaiting_reply
+INST-48A3556E,Internal Medicine,True,True,True,True,True,no_response
+INST-228CD5F1,Internal Medicine,True,True,True,True,True,no_response
+INST-E06EAA1E,Internal Medicine,True,True,True,True,True,no_response
+INST-44D77C4D,Surgery,True,True,True,True,True,no_response
 INST-5D64268D,Unassigned,True,False,False,False,False,no_outcome_recorded
-INST-B8A4BB27,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-035EA694,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-B9442660,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-46778642,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-5012DA4D,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-7E0F1291,Internal Medicine,True,True,True,True,True,awaiting_reply
+INST-B8A4BB27,Internal Medicine,True,True,True,True,True,no_response
+INST-035EA694,Internal Medicine,True,True,True,True,True,no_response
+INST-B9442660,Internal Medicine,True,True,True,True,True,no_response
+INST-46778642,Internal Medicine,True,True,True,True,True,no_response
+INST-5012DA4D,Internal Medicine,True,True,True,True,True,no_response
+INST-7E0F1291,Internal Medicine,True,True,True,True,True,no_response
 INST-036F7CE5,Unassigned,True,False,False,False,False,no_outcome_recorded
-,Internal Medicine,True,True,True,True,True,awaiting_reply
-INST-CB82D565,Internal Medicine,True,True,True,True,True,awaiting_reply
+,Internal Medicine,True,True,True,True,True,no_response
+INST-CB82D565,Internal Medicine,True,True,True,True,True,no_response
 INST-C373EF02,Unassigned,True,False,False,False,False,no_outcome_recorded
 INST-0E609122,Unassigned,True,False,False,False,False,no_outcome_recorded
 INST-67BE8483,Unassigned,True,False,False,False,False,no_outcome_recorded

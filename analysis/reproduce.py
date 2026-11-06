@@ -45,9 +45,9 @@ for c in ["searched", "contact_identified", "email_obtained", "videoconference_c
     tr[c] = tr[c].astype(bool)
 
 # Invitation semantics, confirmed by the study team. A blank invitation cell for a contact who
-# completed a videoconference means the invitation WAS issued and no reply had arrived by the
-# census date ("awaiting_reply"); a blank for a contact with no videoconference means no
-# invitation was ever issued. Invitations issued therefore exceeds invitations with an outcome.
+# completed a videoconference means the invitation WAS issued and never drew a reply; those are
+# recorded as "no_response". A blank for a contact with no videoconference means no invitation
+# was ever issued. Every invitation issued therefore has a known outcome.
 
 
 # --------------------------------------------------------------------------
@@ -85,8 +85,6 @@ R["contact_yield_IM_pct"] = round(int(im["contact_identified"].sum()) / int(im["
 # --------------------------------------------------------------------------
 meetings = int(tr["videoconference_completed"].sum())
 issued = tr["invitation_issued"]
-recorded = tr["invitation_outcome"].isin(["agreed", "no_response", "other"])
-awaiting = int((tr["invitation_outcome"] == "awaiting_reply").sum())
 agreed = int((tr["invitation_outcome"] == "agreed").sum())
 no_resp = int((tr["invitation_outcome"] == "no_response").sum())
 other = int((tr["invitation_outcome"] == "other").sum())
@@ -101,7 +99,6 @@ stages = [
     ("Contact email address obtained", R["emails_total"]),
     ("Introductory videoconference completed", meetings),
     ("Study invitation issued", int(issued.sum())),
-    ("Invitation outcome recorded by census", int(recorded.sum())),
     ("Verbal agreement to participate", agreed),
     ("Informed consent form on file", consents),
     ("At least one proposal section submitted", submitted),
@@ -111,8 +108,7 @@ T2 = pd.DataFrame(stages, columns=["Stage", "n"])
 T2["% of 299 outreach records"] = (T2["n"] / R["records_total"] * 100).round(1)
 T2.to_csv(os.path.join(OUT, "table_2.csv"), index=False)
 
-R.update(meetings=meetings, invitations_issued=int(issued.sum()),
-         invitations_recorded=int(recorded.sum()), awaiting_reply=awaiting, agreed=agreed,
+R.update(meetings=meetings, invitations_issued=int(issued.sum()), agreed=agreed,
          no_response=no_resp, other_outcome=other, consents=consents,
          sections_submitted=submitted, feedback_iterations=iterated,
          pct_of_target=round(consents / TARGET_N * 100, 1))
@@ -128,8 +124,7 @@ a = int((met_inv.invitation_outcome == "agreed").sum())
 b = len(met_inv) - a
 c = int((cold_inv.invitation_outcome == "agreed").sum())
 d = len(cold_inv) - c
-odds, p = stats.fisher_exact([[a, b], [c, d]])          # all invited: conservative
-_, p_cc = stats.fisher_exact([[a, 1], [c, d]])          # complete case: 16 pending excluded
+odds, p = stats.fisher_exact([[a, b], [c, d]])
 
 
 def jeffreys(k, n):
@@ -139,14 +134,12 @@ def jeffreys(k, n):
 
 n_meet, n_cold = len(met_inv), len(cold_inv)
 ci_meet, ci_cold = jeffreys(a, n_meet), jeffreys(c, n_cold)
-n_meet_rec = int(met_inv.invitation_outcome.isin(["agreed", "no_response", "other"]).sum())
 
 
 def row(label, sel, n, k, ci):
     return [label, n,
             int((sel.invitation_outcome == "agreed").sum()),
             int((sel.invitation_outcome == "no_response").sum()),
-            int((sel.invitation_outcome == "awaiting_reply").sum()),
             int((sel.invitation_outcome == "other").sum()),
             f"{k / n * 100:.1f} ({ci[0]}-{ci[1]})"]
 
@@ -154,22 +147,16 @@ def row(label, sel, n, k, ci):
 T3 = pd.DataFrame([
     row("Yes", met_inv, n_meet, a, ci_meet),
     row("No", cold_inv, n_cold, c, ci_cold),
-    ["Total", n_meet + n_cold, a + c, no_resp, awaiting, other,
-     f"{(a + c) / (n_meet + n_cold) * 100:.1f}"],
+    ["Total", n_meet + n_cold, a + c, no_resp, other, f"{(a + c) / (n_meet + n_cold) * 100:.1f}"],
 ], columns=["Introductory videoconference before invitation", "Invitations issued",
-            "Agreed to participate", "No response", "Awaiting reply at census",
-            "Other response", "Agreement among all invited, % (95% CI)"])
+            "Agreed to participate", "No response", "Other response",
+            "Agreement, % (95% CI)"])
 T3.to_csv(os.path.join(OUT, "table_3.csv"), index=False)
 
-R.update(fisher_p=float(p), fisher_p_complete_case=float(p_cc),
-         agree_after_meeting=a, invited_after_meeting=n_meet,
+R.update(fisher_p=float(p), agree_after_meeting=a, invited_after_meeting=n_meet,
          agree_cold=c, invited_cold=n_cold,
-         ci_meeting=list(ci_meet), ci_cold=list(ci_cold),
-         meetings_without_outcome=awaiting,
-         recorded_after_meeting=n_meet_rec)
-R["agreement_all_invited_pct"] = round(a / n_meet * 100, 1)
-R["agreement_complete_case_pct"] = round(a / n_meet_rec * 100, 1)
-R["agreement_upper_bound_pct"] = round((a + awaiting) / n_meet * 100, 1)
+         ci_meeting=list(ci_meet), ci_cold=list(ci_cold))
+R["agreement_after_meeting_pct"] = round(a / n_meet * 100, 1)
 
 
 # Table 4: pre-trial validation of the data capture system
@@ -246,7 +233,7 @@ def figure_1():
          f"No videoconference  n = {R['contacts_total'] - R['meetings']}\n"
          f"{R['invited_cold']} invited cold; none replied"),
         ("Verbal agreement to participate", R["agreed"],
-         f"Awaiting reply at census  n = {R['awaiting_reply']}\n"
+         f"No response to invitation  n = {R['invited_after_meeting'] - R['agreed'] - R['other_outcome']}\n"
          f"Other response  n = {R['other_outcome']}"),
         ("Informed consent on file", R["consents"],
          f"Agreed but not consented\nn = {R['agreed'] - R['consents']}"),
@@ -341,13 +328,10 @@ f2 = figure_2()
 PUBLISHED = {
     "records_total": 299, "institutions_total": 152, "searched_total": 94,
     "contacts_total": 51, "emails_total": 49, "meetings": 23,
-    "invitations_issued": 44, "invitations_recorded": 28, "awaiting_reply": 16,
-    "agreed": 6, "no_response": 21, "other_outcome": 1,
+    "invitations_issued": 44, "agreed": 6, "no_response": 37, "other_outcome": 1,
     "consents": 2, "sections_submitted": 1, "feedback_iterations": 1,
-    "agree_after_meeting": 6, "invited_after_meeting": 23, "recorded_after_meeting": 7,
-    "agree_cold": 0, "invited_cold": 21, "meetings_without_outcome": 16,
-    "agreement_all_invited_pct": 26.1, "agreement_complete_case_pct": 85.7,
-    "agreement_upper_bound_pct": 95.7,
+    "agree_after_meeting": 6, "invited_after_meeting": 23,
+    "agree_cold": 0, "invited_cold": 21, "agreement_after_meeting_pct": 26.1,
     "crf_fields": 66, "crf_forms": 13, "crf_timepoints": 8,
     "checks_total": 31, "checks_executed": 18, "checks_deferred": 10, "checks_unresolved": 3,
     "fields_populated": 6, "forms_never_opened": 12,
@@ -357,7 +341,6 @@ PUBLISHED = {
 }
 fails = [(k, v, R.get(k)) for k, v in PUBLISHED.items() if R.get(k) != v]
 assert round(R["fisher_p"], 3) == 0.022, R["fisher_p"]
-assert R["fisher_p_complete_case"] < 2.0e-5, R["fisher_p_complete_case"]
 assert R["ci_meeting"] == [11.7, 46.1], R["ci_meeting"]
 assert R["ci_cold"] == [0.0, 11.1], R["ci_cold"]
 

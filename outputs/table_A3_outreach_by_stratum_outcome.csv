@@ -1,9 +1,8 @@
 stratum,invitation_outcome,records,searched,contacts,meetings
 Internal Medicine,agreed,6,6,6,6
-Internal Medicine,awaiting_reply,15,15,15,15
 Internal Medicine,no_outcome_recorded,22,22,14,0
-Internal Medicine,no_response,21,21,8,0
+Internal Medicine,no_response,36,36,23,15
 Internal Medicine,other,1,1,1,1
-Surgery,awaiting_reply,1,1,1,1
 Surgery,no_outcome_recorded,134,22,6,0
+Surgery,no_response,1,1,1,1
 Unassigned,no_outcome_recorded,99,6,0,0
